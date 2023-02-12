@@ -1,6 +1,6 @@
 (ns clojure-swapi.core-test
-  (:require [clojure.test :refer :all]
-            [clojure-swapi.core :refer :all]))
+  (:require [clojure.test :refer [deftest testing is]]
+            [clojure-swapi.core]))
 
 (deftest a-test
   (testing "FIXME, I fail."
